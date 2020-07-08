@@ -4,6 +4,11 @@ package animalkingdom;
 public class Fish extends Animals{
     public String name;
 
+    public Fish(String name, int year) {
+        super(year);
+        this.name = name;
+    }
+
     public String getName(){
         return this.name;
     }

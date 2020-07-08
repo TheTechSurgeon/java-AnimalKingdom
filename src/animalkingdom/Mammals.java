@@ -3,6 +3,12 @@ package animalkingdom;
 public class Mammals extends Animals{
     public String name;
 
+    public Mammals(String name, int year) {
+        super(year);
+        this.name = name;
+    }
+
+
     public String getName(){
         return this.name;
     }
